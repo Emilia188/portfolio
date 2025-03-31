@@ -1,13 +1,13 @@
 :root {
   --branding-color: #f9f6ee;
-  --secondary-color: #132743;
+  --secondary-color: #385170;
   --heading-font-family: "Nunito", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
 body {
   font-family: var(--default-font-family);
   color: var(--branding-color);
-  background: var(--secondary-color);
+  background: #132743;
 }
 h1,
 h2,
@@ -46,10 +46,29 @@ p {
   font-weight: normal;
   opacity: 0.7;
 }
-.navbar-nav {
+.btn-branding {
+  background: var(--branding-color);
   color: var(--secondary-color);
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 6px;
+}
+.btn-branding:hover {
+  background: var(--secondary-color);
+  color: var(--branding-color);
+}
+.btn-branding-outline {
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 6px;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+}
+.btn-branding-outline:hover {
+  background: var(--branding-color);
 }
 nav a {
+  color: black;
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
