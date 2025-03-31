@@ -1,1 +1,7 @@
-
+nav {
+  padding: 20px 40px;
+}
+.nav-link {
+  line-height: 42px;
+  margin-left: 15px;
+}
