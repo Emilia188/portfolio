@@ -1,11 +1,13 @@
-.root {
-  --branding-color: ;
+:root {
+  --branding-color: #f9f6ee;
   --secondary-color: ;
-  --heading-font-family: "Nunito", system-ui;
-  --default-font-family: "Poppins", system-ui;
+  --heading-font-family: "Nunito", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 body {
   font-family: var(--default-font-family);
+  color: var(--branding-color);
+  background: #132743;
 }
 h1,
 h2,
@@ -15,7 +17,7 @@ h4 {
   font-weight: bold;
 }
 h1 {
-  font-size: 96px;
+  font-size: 72px;
   line-height: 1.5;
 }
 h2 {
