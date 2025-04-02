@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #f9f6ee;
+  --branding-color: #f8f2e2;
   --secondary-color: #385170;
   --heading-font-family: "Nunito", sans-serif;
   --default-font-family: "Poppins", sans-serif;
@@ -24,7 +24,7 @@ h2 {
   font-size: 64px;
 }
 h3 {
-  font-size: 48px;
+  font-size: 24px;
 }
 p {
   font-size: 16px;
@@ -67,6 +67,12 @@ p {
 .btn-branding-outline:hover {
   background: var(--branding-color);
 }
+.projects-container {
+  padding: 60px;
+  background: var(--branding-color);
+  color: black;
+}
+
 nav a {
   color: black;
   transition: all 100ms ease-in-out;
