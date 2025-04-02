@@ -84,3 +84,6 @@ nav a:hover,
 .nav-link {
   margin-left: 15px;
 }
+footer .created {
+  opacity: 0.6;
+}
