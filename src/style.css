@@ -38,6 +38,10 @@ p {
   line-height: 30px;
   font-weight: normal;
 }
+
+a:hover {
+  color: var(--secondary-color);
+}
 .hero {
   background: radial-gradient(
     circle at 50% 50%,
@@ -68,7 +72,11 @@ p {
 }
 .projects-container {
   padding: 60px;
-  background: #edf7fa;
+  background: radial-gradient(
+    circle,
+    rgba(237, 247, 250, 1) 0%,
+    rgba(142, 174, 196, 1) 99%
+  );
   color: black;
 }
 .btn-branding {
@@ -81,18 +89,20 @@ p {
 .btn-branding:hover {
   background: var(--secondary-color);
   color: var(--branding-color);
+  border: 1px solid var(--branding-color);
 }
 .btn-branding-outline {
+  background: var(--secondary-color);
+  color: var(--branding-color);
   font-size: 18px;
   padding: 15px 30px;
   border-radius: 6px;
-  border: 1px solid var(--branding-color);
-  color: var(--branding-color);
 }
 .btn-branding-outline:hover {
   background: var(--branding-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
-
 nav a {
   color: black;
   transition: all 100ms ease-in-out;
@@ -105,11 +115,22 @@ nav a:hover,
   margin-left: 15px;
 }
 footer .contact-box {
-  background: var(--branding-color);
+  background: radial-gradient(
+    circle,
+    rgba(237, 247, 250, 1) 0%,
+    rgba(142, 174, 196, 1) 99%
+  );
   color: black;
   padding: 30px 0;
   border-radius: 6px;
 }
 footer .created {
   opacity: 0.6;
+}
+footer .created a {
+  color: var(--branding-color);
+}
+footer .created a:hover {
+  font-weight: bold;
+  color: var(--branding-color);
 }
