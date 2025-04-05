@@ -38,10 +38,6 @@ p {
   line-height: 30px;
   font-weight: normal;
 }
-
-a:hover {
-  color: var(--secondary-color);
-}
 .hero {
   background: radial-gradient(
     circle at 50% 50%,
@@ -71,13 +67,14 @@ a:hover {
   margin: 0;
 }
 .projects-container {
-  padding: 60px;
   background: radial-gradient(
     circle,
     rgba(237, 247, 250, 1) 0%,
     rgba(142, 174, 196, 1) 99%
   );
   color: black;
+  padding: 60px;
+  border-radius: 6px;
 }
 .btn-branding {
   background: var(--branding-color);
@@ -107,9 +104,10 @@ nav a {
   color: black;
   transition: all 100ms ease-in-out;
 }
-nav a:hover,
-.nav-link.active a {
+.navbar-nav a:hover,
+.navbar-nav .nav-link.active {
   font-weight: 600;
+  color: var(--secondary-color);
 }
 .nav-link {
   margin-left: 15px;
