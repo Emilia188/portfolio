@@ -66,7 +66,7 @@ p {
   font-weight: bold;
   margin: 0;
 }
-.projects-container {
+.content-container {
   background: radial-gradient(
     circle,
     rgba(237, 247, 250, 1) 0%,
@@ -131,4 +131,28 @@ footer .created a {
 footer .created a:hover {
   font-weight: bold;
   color: var(--branding-color);
+}
+footer .social-links a {
+  font-size: 18px;
+  margin: 0 20px;
+  padding: 10px 14px;
+  color: var(--secondary-color);
+  background: var(--branding-color);
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+.contact-container {
+  background: radial-gradient(
+    circle,
+    rgba(237, 247, 250, 1) 0%,
+    rgba(142, 174, 196, 1) 99%
+  );
+  color: black;
+  margin: 80px 180px;
+  padding: 60px;
+  border-radius: 6px;
+}
+.contact-container a {
+  text-decoration: none;
+  font-size: 18px;
 }
