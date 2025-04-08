@@ -85,6 +85,10 @@ p {
 .projects img:hover {
   transform: scale(1.15);
 }
+.projects p {
+  opacity: 0.6;
+  line-height: 1.5;
+}
 .contact {
   margin: 60px auto;
 }
