@@ -77,14 +77,19 @@ p {
   border-radius: 6px;
 }
 .about {
-  margin: 60px auto;
+  margin: 60px auto 30px;
 }
 .about h1 {
   font-size: 42px;
   color: var(--secondary-color);
 }
+.about a {
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-decoration: none;
+}
 .projects {
-  margin: 60px auto;
+  margin: 60px auto 30px;
 }
 .projects img {
   transition: all 200ms ease-in-out;
