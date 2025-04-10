@@ -184,3 +184,17 @@ footer .social-links a:hover {
   color: var(--branding-color);
   background: var(--secondary-color);
 }
+@media (max-width: 576px) {
+  .contact h2 {
+    font-size: 42px;
+  }
+  .about img {
+    margin: 0;
+  }
+  .about h1 {
+    font-size: 36px;
+  }
+  .about p {
+    margin: 0;
+  }
+}
