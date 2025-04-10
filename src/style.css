@@ -82,11 +82,18 @@ p {
 .about h1 {
   font-size: 42px;
   color: var(--secondary-color);
+  text-align: center;
+}
+.about p {
+  margin-left: 60px;
 }
 .about a {
   color: var(--secondary-color);
   font-weight: bold;
   text-decoration: none;
+}
+.about img {
+  margin-left: 100px;
 }
 .projects {
   margin: 60px auto 30px;
